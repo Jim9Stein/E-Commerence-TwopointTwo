@@ -109,7 +109,7 @@ button {
 button:active {
     transform: translateY(1px);
 }
-
+  
 .btn {
     background-color: #7342d6;
     color: white;
@@ -120,6 +120,23 @@ button:active {
     margin-bottom: 100px;
 }
 
+
 .header__img--wrapper {
     padding: 20px;
 }
+
+.container {
+    padding: 56px 0;
+}
+
+.row {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/*
+
+HIGHLIGHTS
+
+*/
