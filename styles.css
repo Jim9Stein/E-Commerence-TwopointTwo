@@ -275,6 +275,7 @@ HIGHLIGHTS
 
 .highlight__wrapper {
     display: flex;
+    flex-wrap: wrap;
 }
 
 .highlight {
@@ -438,17 +439,29 @@ footer {
 }
 
 
-
+/* SMALL PHONES, LARGE SMART PHONES */
 
 @media (max-width:550px) {
     .nav__links {
         display: none;
     }
-}
+
 
 .btn__menu {
     display: block;
 }
+
+.highlight {
+    width: 100%;
+   
+}
+
+.highlight:not(:last-child) {
+     margin-bottom: 24px;
+}
+}
+
+
    
 
 
